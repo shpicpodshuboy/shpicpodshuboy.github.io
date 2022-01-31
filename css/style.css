@@ -1,0 +1,142 @@
+body {
+    background-color: black;
+    color: #00cc00;
+    line-height: 140%;
+}
+
+a:link {
+    text-decoration: none;
+    color: #00cc00;
+    border-bottom: 2px dashed DarkOrchid;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #00cc00;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #00cc00;
+}
+
+a:active {
+    text-decoration: none;
+    color: #00cc00;
+}
+
+.headerbox {
+    padding-left:20px;
+    padding-top:5px;
+    padding-right:20px;
+    padding-bottom:10px;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #00cc00;
+    text-align: center;
+    width: 1200px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+}
+
+.sidemenu {
+    margin-top: 20px;
+    background-color: #003a00;
+    border: 5px solid #00cc00;
+    border-style: groove;
+    width: 200px;
+    height: 800px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+}
+
+.sidemenulink {
+    text-align: center;
+}
+
+.container {
+    padding-left:20px;
+    padding-top:10px;
+    padding-right:20px;
+    padding-bottom:10px;
+    margin-top: -810px;
+    margin-left: 324px;
+    margin-right: 70px;
+    height: 800px;
+    width: 1355px;
+    border: 5px solid #00cc00;
+    background-color: #003a00;
+    border-style: groove;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    animation-name: ramka;
+    animation-duration: 0.6s;
+}
+
+/* .tochka {
+    border: 1px solid #00cc00;
+    background-color: #00cc00;
+    width: 13px;
+    height: 13px;
+    margin-top: -20px;
+    margin-left: 147px; /* Следует изменять положение точки взависимости от расположения текста. */
+    /* animation-name: tochka;
+    animation-duration: 0.6s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; */
+
+/* }  */
+
+header {
+    padding-left:20px;
+    padding-top:5px;
+    padding-right:20px;
+    padding-bottom:10px;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #00cc00;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 15px;
+    width: 720px;
+}
+
+.containertext {
+    animation-name: text;
+    animation-duration: 3s;
+}
+
+/* @keyframes tochka {
+    from {
+        border: 1px solid #00cc00;
+        background-color: #00cc00;
+    }
+    to {
+        border: 1px solid #003a00;
+        background-color: #003a00;
+    }
+} */
+
+@keyframes ramka {
+    from {
+        border: 1px solid #003a00;
+        width: 1px;
+        height: 1px;
+        color: black;
+    }
+    50% {
+        color: #003a00;
+    }
+    to {
+        border-style: groove;
+        border: 5px solid #00cc00;
+    }
+}
+
+@keyframes text {
+    0% {opacity: 0;}
+    30% {opacity: 0;}
+    100% {opacity: 1;}
+}
